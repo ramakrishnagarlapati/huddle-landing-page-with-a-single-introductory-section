@@ -73,6 +73,11 @@ main {
     cursor: pointer;
 }
 
+.info-container button:hover {
+    background-color: hsl(258, 90%, 67%);
+    color: white;
+}
+
 .icons {
     display: flex;
     justify-content: center;
@@ -87,8 +92,14 @@ main {
 
 }
 
+
+
 .icons .icon i {
     color: whitesmoke;
+}
+
+.icons .icon i:hover {
+    color: rgb(243, 189, 124);
 }
 
 @media screen and (min-width:700px) and (max-width:1050px) {
@@ -110,6 +121,8 @@ main {
     body {
         padding: 2rem 6rem;
         background-image: url(images/bg-desktop.svg);
+        background-position: center;
+        background-size: cover;
     }
 
     main {
